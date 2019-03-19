@@ -1,0 +1,158 @@
+/*          Global*/
+body {
+    font-family: Ariel, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.dark {
+    padding: 15px;
+    background-color: #35425a;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+/*        header*/
+header {
+    background-color: #35425a;
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #E8491D;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding {
+    float: left;
+
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .highlight, header .current a{
+    color: #E8491D;
+    font-weight: bold;
+}
+header a:hover {
+    color: slategray;
+    font-weight: bold;
+}
+/*          showcase*/
+#showcase {
+    min-height: 400px;
+    text-align: center;
+    color: white;
+    background: url("images/laptop.jpg") no-repeat;
+    background-size: 100%;
+    margin: auto;
+    /*width: 100%; */
+}
+
+#showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p {
+    font-size: 20px;
+}
+/* newsletter */
+#connect {
+    padding: 15px;
+    color: white;
+    background: #35425a;
+
+}
+
+#connect h1 {
+    text-align: center;
+
+}
+.icons {
+    text-align: center;
+}
+#connect img {
+    padding-right: 50px;
+}
+
+
+/*Boxes */
+#boxes {
+    margin-top: 20px;
+}
+#boxes .box {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+
+}
+#boxes .im{
+    width: 90px;
+}
+.box a {
+    color: #E8491D;
+    text-decoration: none;
+}
+.box a:hover {
+    color: #35425a;
+}
+footer p{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #E8491D;
+    text-align: center;
+    font-style: italic;
+    float: bottom;
+
+}
+/*about page*/
+article#resume{
+    float: left;
+    width: 65%;
+    margin-top: 10px;
+}
+
+
+/*Resume*/
+#resume section h1{
+    float:left;
+}
+#resume section p {
+    padding-left: 10em;
+    padding-top: 20px;
+}
+.project_head {
+   font-weight: bold;
+}
