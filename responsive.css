@@ -101,9 +101,10 @@ header a:hover {
 }
 .icons {
     text-align: center;
+	padding-left: 50px;
 }
 #connect img {
-    padding-right: 50px;
+    padding-right: 50px; 
 }
 
 
@@ -112,8 +113,8 @@ header a:hover {
     margin-top: 20px;
 }
 #boxes .box {
-    float: left;
-    width: 30%;
+    float: left; 
+    width: 30%; 
     padding: 10px;
     text-align: center;
 
@@ -151,7 +152,7 @@ article#resume{
 }
 #resume section p {
     padding-left: 10em;
-    padding-top: 20px;
+    padding-top: 20px;  
 }
 .project_head {
    font-weight: bold;
