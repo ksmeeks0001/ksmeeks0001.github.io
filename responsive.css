@@ -154,6 +154,9 @@ article#resume{
     padding-left: 10em;
     padding-top: 20px;  
 }
+#resume ul{
+	padding-left: 400px;	
+}
 .project_head {
    font-weight: bold;
 }
