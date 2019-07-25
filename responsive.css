@@ -155,7 +155,7 @@ article#resume{
     padding-top: 20px;  
 }
 #resume ul{
-	list-type: none;
+	list-style-type: none;
 	padding-left: 400px;	
 }
 .project_head {
